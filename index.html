@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StarBot</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            color: #222222;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            margin-top: 5px;
+        }
+
+        nav a {
+            color: #dddddd;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        main {
+            width: 850px;
+            max-width: 90%;
+            margin: 40px auto;
+        }
+
+        .intro {
+            background-color: white;
+            border: 1px solid #cccccc;
+            padding: 25px;
+        }
+
+        .intro h2 {
+            margin-top: 0;
+        }
+
+        .intro p {
+            line-height: 1.5;
+        }
+
+        .github {
+            display: inline-block;
+            background-color: #444444;
+            color: white;
+            padding: 9px 15px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-top: 25px;
+            background-color: white;
+            border: 1px solid #cccccc;
+            padding: 25px;
+        }
+
+        .command {
+            border: 1px solid #d0d0d0;
+            background-color: #f8f8f8;
+            padding: 15px;
+            margin-top: 12px;
+        }
+
+        .command code {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .command p {
+            margin-bottom: 0;
+        }
+
+        .technologies span {
+            display: inline-block;
+            background-color: #dddddd;
+            padding: 6px 10px;
+            margin: 4px;
+        }
+
+        footer {
+            text-align: center;
+            color: #666666;
+            font-size: 14px;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                width: 95%;
+            }
+
+            header {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>StarBot</h1>
+
+        <nav>
+            <a href="#commands">Commands</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="intro">
+            <h2>StarBot - Slack Bot</h2>
+
+            <p>
+                StarBot is a simple Slack bot that I made for the
+                Stardance Slack Bot mission.
+            </p>
+
+            <p>
+                The bot is written in Python and uses Slack Bolt.
+                It is hosted on Railway so it can stay online.
+            </p>
+
+            <a class="github"
+               href="https://github.com/Helos-dev/starbot"
+               target="_blank">
+                GitHub Repository
+            </a>
+        </div>
+
+        <div class="section" id="commands">
+            <h2>Commands</h2>
+
+            <div class="command">
+                <code>/starbot-ping</code>
+                <p>
+                    Checks if the bot is online.
+                </p>
+            </div>
+
+            <div class="command">
+                <code>/starbot-joke</code>
+                <p>
+                    Sends a random programming joke.
+                </p>
+            </div>
+
+            <div class="command">
+                <code>/starbot-help</code>
+                <p>
+                    Shows the available StarBot commands.
+                </p>
+            </div>
+        </div>
+
+        <div class="section" id="about">
+            <h2>About</h2>
+
+            <p>
+                I made this bot to learn more about Slack apps,
+                Python and APIs.
+            </p>
+
+            <p>
+                The bot uses Socket Mode to communicate with Slack
+                and is hosted on Railway.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Technologies</h2>
+
+            <div class="technologies">
+                <span>Python</span>
+                <span>Slack Bolt</span>
+                <span>Socket Mode</span>
+                <span>Railway</span>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        StarBot - Stardance Slack Bot Mission
+    </footer>
+
+</body>
+</html>
