@@ -1,4 +1,5 @@
 # starbot
+starbot is a slack bot built from Helos
 # Apps used:
  VS code for coding.
  Youtube for tutorials.
