@@ -38,11 +38,6 @@ def help_command(ack, respond):
         " `/starbot-help` - Show all available commands"
     )
 
-
-# ==========================================
-# START BOT
-# ==========================================
-
 if __name__ == "__main__":
     print(" StarBot is starting...")
 
